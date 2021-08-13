@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins';
+  background: #091F43;
+  color: white;
+}
+
+.container {
+  max-width: 990px;
+  height: 100vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .heading {
+  margin-top: 10rem;
+  font-size: 1.5rem;
+}
+
+.search {
+  width: 40%;
+  margin-top: 2rem;
+}
+
+.search input {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 1rem 2rem;
+  width: 75%;
+}
+
+.search button {
+  height: 100%;
+  width: 14%;
+  background: #ff9912;
+  border: none;
+  border-radius: 0.1rem;
+  color: white;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.card {
+  background: white;
+  color: black;
+  width: 35%;
+  margin-top: 1.5rem;
+  margin-right: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.6rem;
+}
+
+.card .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.card .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .details .temp {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.card .details .desc {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.card .details .location {
+  font-size: 1rem;
+  color: gray;
+  margin-bottom: 2rem;
+}
